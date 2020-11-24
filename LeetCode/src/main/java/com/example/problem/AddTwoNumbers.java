@@ -1,6 +1,6 @@
 package com.example.problem;
 
-import org.json.JSONObject;
+
 
 /**
  * @author zjk
@@ -8,7 +8,6 @@ import org.json.JSONObject;
  * @date 2020-09-13 11:12
  */
 public class AddTwoNumbers {
-
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode root = new ListNode(0);
@@ -31,7 +30,7 @@ public class AddTwoNumbers {
         return root.next;
     }
 
-    public static class ListNode {
+    public class ListNode {
         int val;
         ListNode next;
 

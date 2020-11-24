@@ -1,7 +1,9 @@
 package com.example.problem;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Random;
 
 /**
  * @author zjk
@@ -41,8 +43,8 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        int[] nums = {2, 99, 11, 1};
-        int target = 9;
-        System.out.println(Arrays.toString(twoSum(nums, target)));
+        Student student = new Student();
+        student.setAge(18);
+        student.setName("洪七公");
     }
 }
